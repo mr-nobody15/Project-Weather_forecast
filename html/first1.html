@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="C:\Users\Akhil\Desktop\Notes\3-1\internship\codes\css\style_currentday.css" rel="stylesheet">
+
+  <link rel="icon" href="C:\Users\Akhil\Desktop\Web Dev bootcamp\favicon.png" sizes="32x32">
+ 
+
+</head>
+<body>
+
+<h1 class="title">Weather Application info</h1>
+
+
+
+<div class="app-main">
+    <div class="searchInputBox">
+        <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+       
+    </div>
+</div>
+
+
+<main class="main-container">
+
+  <div class="location-and-date">
+
+
+    <h1 class="location-and-date__location" id="location">London, UK</h1>
+    <div id="day_date">Sunday 4th August</div>
+  </div> 
+
+  <br>
+
+
+<div class  =  "box">
+
+  
+  <div class="current-temperature">
+
+    <div class="current-temperature__icon-container">
+
+     
+    </div>
+
+    <div class="current-temperature__content-container">
+      <div class="current-temperature__value" id="current_temperature">21&deg;</div>
+      <div class="current-temperature__summary" id="weather_description">Mostly Sunny</div>
+    </div>
+
+
+  </div>
+
+
+  <div class="current-stats">
+    <div class = "column1">
+      <div class="current-stats__value" id="weather_high_value">23&deg;</div>
+      <div class="current-stats__label" >High</div>
+      <div class="current-stats__value" id="weather_low_value">14&deg;</div>
+      <div class="current-stats__label">Low</div>
+    </div>
+    <div class = "column2">
+      <div class="current-stats__value" id = "wind_value">7mph</div>
+      <div class="current-stats__label">Wind</div>
+      <div class="current-stats__value">0%</div>
+      <div class="current-stats__label">Rain</div>
+    </div>
+    <div>
+      <div class="current-stats__value" id="sunrise_value">05:27</div>
+      <div class="current-stats__label">Sunrise</div>
+      <div class="current-stats__value" id="sunset_value">20:57</div>
+      <div class="current-stats__label">Sunset</div>
+    </div>
+  </div>
+
+
+</div>
+
+  
+<script src="C:\Users\Akhil\Desktop\Notes\3-1\internship\codes\JS\app_current day.js"></script>
+<script src="C:\Users\Akhil\Desktop\Notes\3-1\internship\codes\JS\moment-develop\moment.js"></script>
+   
+</main>
+
+<br><br>
+
+<br>
+<main id="end-container">
+<br>
+<link rel="stylesheet" href="C:\Users\Akhil\Desktop\Notes\3-1\internship\codes\css\style_5dayforecast.css">
+
+  <div id = "weatherContainer">
+    <div id="iconsContainer">    
+        <div class = "icons">
+            <p class="weather" id="day1"></p>
+            <div class="image1"><img src="C:\Users\Akhil\Desktop\Notes\3-1\internship\dots.png" class="imgClass1" id="img1"></div>
+           
+           
+          <br>
+          <div class = "result" id="result1">
+
+            <p class="maxValues" id="day1Max">Loading...</p>
+            <p class="minValues" id="day1Min">Loading...</p>
+
+          </div>
+           
+
+          
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day2"></p>
+            <div class="image2"><img src="C:\Users\Akhil\Desktop\Notes\3-1\internship\dots.png" class="imgClass1" id="img2"></div>
+           <br>
+         
+            <div class = "result" id="result1">
+
+              <p class="maxValues" id="day2Max">Loading...</p>
+              <p class="minValues" id="day2Min">Loading...</p>
+  
+            </div>
+          
+            
+            
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day3"></p>
+            <div class="image3"><img src="C:\Users\Akhil\Desktop\Notes\3-1\internship\dots.png" class="imgClass1" id="img3"></div>
+           
+            
+         <br>
+            <div class = "result" id="result1">
+
+              <p class="maxValues" id="day3Max">Loading...</p>
+              <p class="minValues" id="day3Min">Loading...</p>
+  
+            </div>
+
+            
+           
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day4"></p>
+            <div class="image4"><img src="C:\Users\Akhil\Desktop\Notes\3-1\internship\dots.png" class="imgClass1" id="img4"></div>
+            
+          <br>
+            <div class = "result" id="result1">
+
+              <p class="maxValues" id="day4Max">Loading...</p>
+              <p class="minValues" id="day4Min">Loading...</p>
+  
+            </div>
+
+          
+           
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day5"></p>
+            <div class="image5"><img src="C:\Users\Akhil\Desktop\Notes\3-1\internship\dots.png" class="imgClass1" id="img5"></div>
+           
+           <br> 
+            <div class = "result" id="result1">
+
+              <p class="maxValues" id="day5Max">Loading...</p>
+              <p class="minValues" id="day5Min">Loading...</p>
+  
+            </div>
+            
+           
+        </div>
+    </div>
+</div>
+
+<script src="C:\Users\Akhil\Desktop\Notes\3-1\internship\codes\JS\app_5 day forecast.js"></script>
+
+
+</main>
+
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7vh;
+}
+
+
+.imgClass1{
+    height: 40px;
+}
+
+#cityInput, #cityName, #inputContainer,button{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 3px;
+padding:11px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+}
+
+
+#weatherwidget-io{
+    width: 30%;
+}
+
+#weatherContainer{
+    margin-top: 13%;
+    margin-left: 2%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 1230px;
+    border: 5px solid black;    
+    border-radius: 4px;
+}
+
+#iconsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 270px;
+    width: 1200px;    
+    border: 5px solid black;    
+    border-radius: 10px;
+}
+
+.icons{
+
+    display: inline-bock;
+    float: left;
+    height: 230px;
+    width: 190px;
+    margin: 22px;
+    border: 5px solid rgb(48, 47, 47);
+    border-radius: 10px;
+}
+
+.image{
+    height: 140px;
+    width: 100%;
+}
+
+
+
+.imgClass1,.imgClass2,.imgClass3,.imgClass4,.imgClass5{
+
+    justify-content: center;
+    margin-top:14px;
+    margin-left: 50px;
+    height: 80px;
+    width: 44%;
+    
+}
+
+.result{
+    display: flex;
+}
+.weather{
+    margin: 5px;
+   /*  background-color: rgb(106, 215, 255); */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
